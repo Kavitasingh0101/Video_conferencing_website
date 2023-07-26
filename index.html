@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Conferencing Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Video Conferencing</h1>
+  </header>
+
+  <main>
+    <div id="localVideo">
+      <video id="localStream" autoplay muted></video>
+    </div>
+
+    <div id="remoteVideos"></div>
+
+    <button id="joinButton">Join Room</button>
+    <button id="leaveButton" style="display: none;">Leave Room</button>
+  </main>
+
+  <script src="video.js"></script>
+</body>
+</html>
